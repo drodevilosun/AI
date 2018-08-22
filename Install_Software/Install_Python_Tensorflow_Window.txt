@@ -1,0 +1,36 @@
+Refer to page https://www.tensorflow.org/install/install_sources#tested_source_configurations to know which version of tensorflow is associate with python, cuDNN and CUDA.
+
+
+1. Install python:
+https://www.python.org/downloads/
+- Python ver > 3.5 has include pip
+- To upgrade pip:
+> python -m pip install --upgrade pip
+2. Install CUDA:
+Find CUDA version which associate with driver card and version of python on https://www.tensorflow.org/install/install_sources 
+- CUDA package is include driver card and so on.
+- Then add CUDA into Path:
+	Go to system properties -> Environments Variables -> Edit Path -> New Path -> Link of CUDA: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin
+																								C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp
+4. Dowload cudnn:
+Refer to web https://www.tensorflow.org/install/install_sources to download compatible version.
+- Then add CUDA into Path:
+	Go to system properties -> Environments Variables -> Edit Path -> New Path -> Link of CUDA: C:\cuda\bin
+3. Install driver card:
+-> Can skip this step because driver was installed on step 2 with CUDA.
+5. Install tensorflow assiate with CUDA version:
+- Refer to web https://www.tensorflow.org/install/install_sources to download compatible version.
+- Normally: 
+> pip3 install --upgrade tensorflow-gpu
+- Install with specific version:
+> pip install tensorflow-gpu==1.4.0
+
+- If you meet error: tensorflow could not install packages due to an environmenterror, please follow this:
+> pip install --user tensorflow-gpu==1.4.0
+or
+> pip3 install --user --upgrade tensorflow-gpu
+**Reason:
++ pip defaults to installing Python packages to a system directory (such as /usr/local/lib/python3.4). This requires root access.
++ --user makes pip install packages in your home directory instead, which doesn't require any special privileges.
+
+Current driver NVDIA: 23.21.13.913

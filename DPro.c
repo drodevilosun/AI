@@ -9,3 +9,7 @@ CS231 Stanford:
 
 Sklearn tree:
 - https://machinelearningcoban.com/2018/01/14/id3/
+
+tmp:
+lightfm api:
+https://lyst.github.io/lightfm/docs/datasets.html

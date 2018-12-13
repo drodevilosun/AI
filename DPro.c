@@ -14,3 +14,8 @@ tmp:
 lightfm api:
 https://lyst.github.io/lightfm/docs/datasets.html
 https://www.geeksforgeeks.org/args-kwargs-python/
+
+Pyhton Practice:
+- super() function: https://www.programiz.com/python-programming/methods/built-in/super\
+- sense in python: https://pythonhosted.org/sense-hat/
++ Appendix: https://www.practicepython.org/

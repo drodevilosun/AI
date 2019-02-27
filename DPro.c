@@ -19,3 +19,10 @@ Pyhton Practice:
 - super() function: https://www.programiz.com/python-programming/methods/built-in/super\
 - sense in python: https://pythonhosted.org/sense-hat/
 + Appendix: https://www.practicepython.org/
+
+Github Siraj Raval:
+
+**Intelligence of math:
+1. https://github.com/llSourcell/Intro_to_the_Math_of_intelligence
+2. https://github.com/llSourcell/Classifying_Data_Using_a_Support_Vector_Machine
+3. https://www.youtube.com/watch?v=D8alok2P468&index=4&list=PL2-dafEMk2A7mu0bSksCGMJEmeddU_H4D
